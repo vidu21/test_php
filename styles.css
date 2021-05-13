@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    background-image: url(155-1559258_white-light-wallpaper-4k.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .Contact
+  {
+    width: 430px;
+    font-size: 20px;
+    padding: 5px;
+ }
+  .textStyle
+  {
+    width: 90%;
+    padding: 10px;
+    margin: 2px;
+    border: blue;
+  }
+  button
+  {
+    background-color: rgba(98, 0, 255, 0.952);
+    opacity: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer{
+    margin: 20px;
+    padding: 10px;
+    font-size: 11.5px;
+  }
