@@ -44,7 +44,7 @@
       echo "<script type='text/javascript'>alert('Message sent Successfully')
           </script>";
     } catch (Exception $e) {
-      echo "Sorry something went wrong!";
+      echo 'Message: ' .$e->getMessage();
     }
   }
 
